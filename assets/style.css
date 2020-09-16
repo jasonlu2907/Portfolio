@@ -60,6 +60,23 @@ footer {
     text-align: right;
 }
 
+/* /////////////////~CV~/////////////// */
+.nes-container.with-title>.title {
+    margin: -2rem 0 1rem;
+}
+
+.tieusu .nes-container.with-title>.title {
+    font-size: 1.5rem;
+}
+
+.is-dark li {
+    color: white ;
+    list-style-type: kannada;
+}
+
+.nes-list .reference li {
+    display: inline-block!important;
+}
 /* ---------------------- */
 .img-responsive {
     height: 100%;
