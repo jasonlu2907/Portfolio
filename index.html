@@ -8,7 +8,7 @@
 		<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
 		
 		<link rel="stylesheet" href="./assets/style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     
@@ -16,6 +16,23 @@
     <title>Main</title>
   </head>
   <body class="text-center">
+
+    <div id="preloader">
+      <div class="preload">
+        <iframe src="" frameborder="0" id="bgvid" width="100%" height="100%"></iframe>
+      </div>
+
+      <div class="container">
+        <div class="col-md-12 mb-3">
+          <progress class="nes-progress is-pattern bar" value="0" max="100"></progress>
+        </div>
+
+        <button id="skip" class="nes-btn">
+          Skip
+        </button>
+      </div>
+    </div>
+
     <div class="container p-3 h-100 mx-auto">
       <div class="header">
         <header>
@@ -46,5 +63,9 @@
         <p>Made by <a href="#">@jasonlu</a> </p>
       </footer>
     </div>
+
+    <script src="./index.js">
+      
+    </script>
   </body>
 </html>
